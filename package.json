@@ -1,0 +1,23 @@
+{
+  "name": "movie_search_app",
+  "version": "1.0.0",
+  "description": "movie search app with axios and omdb api",
+  "main": "main.js",
+  "dependencies": {
+    "browserify": "^16.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "app",
+    "movies",
+    "search",
+    "axios",
+    "javascript",
+    "bootstrap"
+  ],
+  "author": "wisekrakr",
+  "license": "MIT"
+}

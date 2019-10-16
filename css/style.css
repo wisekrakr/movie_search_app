@@ -1,0 +1,26 @@
+#movies img,
+#movie img {
+  width: 100%;
+}
+
+.thumbnail {
+  padding-top: 2.5rem;
+}
+
+.well {
+  margin: 2rem 0 2rem 0;
+}
+
+.movie-info:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 320px;
+  }
+}
