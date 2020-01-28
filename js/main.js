@@ -1,3 +1,5 @@
+import Api from "./config";
+
 $(document).ready(() => {
   $("#searchForm").on("submit", event => {
     event.preventDefault();
