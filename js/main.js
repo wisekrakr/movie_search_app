@@ -1,5 +1,3 @@
-import Api from "./config";
-
 $(document).ready(() => {
   $("#searchForm").on("submit", event => {
     event.preventDefault();
@@ -10,6 +8,7 @@ $(document).ready(() => {
 });
 
 function getMovies(text) {
+  console.log(Api);
   axios
     .get("http://www.omdbapi.com/?s=" + text + "&" + Api.apikey)
     .then(res => {
